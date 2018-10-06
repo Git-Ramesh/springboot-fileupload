@@ -1,0 +1,8 @@
+[INFO] Scanning for projects... [INFO] [INFO] ------------------------------------------------------------------------ [INFO] Building 
+springboot-fileupload-hibernate-freemarker 0.0.1-SNAPSHOT [INFO] 
+------------------------------------------------------------------------ [INFO] [INFO] --- maven-clean-plugin:3.0.0:clean 
+(default-clean) @ springboot-fileupload-hibernate-freemarker --- [INFO] Deleting /media/ramesh/Entertinement/Eclipse 
+Workspace/SpringBoot-23-06-18/springboot-fileupload-hibernate-freemarker/target [INFO] 
+------------------------------------------------------------------------ [INFO] BUILD SUCCESS [INFO] 
+------------------------------------------------------------------------ [INFO] Total time: 2.948 s [INFO] Finished at: 
+2018-10-06T14:29:19+05:30 [INFO] Final Memory: 12M/163M [INFO] ------------------------------------------------------------------------

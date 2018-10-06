@@ -1,0 +1,29 @@
+server:
+  port: 4015
+spring:
+  datasource:
+    type: org.apache.tomcat.jdbc.pool.DataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_boot?useSSL=false
+    username: root
+    password: root
+    tomcat:
+      initial-size: 10
+      max-active: 3
+      max-idle: 2
+      max-wait: 30000 #30 sec
+      max-age: 10000
+      min-idle: 1
+  jpa:
+    database-platform: mysql
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+      hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+  servlet:
+    multipart:
+      enabled: true
+      max-request-size: 6000000000KB #6GB
+      max-file-size: 6000000000KB #6GB
