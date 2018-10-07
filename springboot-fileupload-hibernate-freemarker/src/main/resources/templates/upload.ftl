@@ -1,23 +1,17 @@
- <!DOCTYPE html>
-<html>
-	<head>
-		<title>Upload</title>
-	</head>
-<body>
+<#import "utils.ftl" as u>
+<@u.page title="upload">
 	<div id="container">
 		<h1 style="text-align: center;">Upload you files to server</h1>
 		<div id="uploadFrom">
 			<form action="fileUpload" method="POST" enctype="multipart/form-data">
-				File: <input type="file" name="file"/><br />
-				File: <input type="file" name="file"/><br />
+				Files: <input type="file" name="file" mutiple/><br />
 				<input type="submit" value="Upload"/>
 			</form>
 		</div>
-	<div>
+	</div>
 	<div>
 		<#if status??>
 			${status}
 		</#if>
 	</div>
-</body>
-</html> 
+</@u.page>
